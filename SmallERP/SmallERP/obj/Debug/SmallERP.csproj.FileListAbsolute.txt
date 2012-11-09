@@ -1,0 +1,5 @@
+C:\Users\Matt\Documents\College\UTTyler\DESIGN OF MODERN INFORMATION SYSTEMS - ASPNET\Assignments\Project\SmallERP\SmallERP\bin\SmallERP.dll
+C:\Users\Matt\Documents\College\UTTyler\DESIGN OF MODERN INFORMATION SYSTEMS - ASPNET\Assignments\Project\SmallERP\SmallERP\bin\SmallERP.pdb
+C:\Users\Matt\Documents\College\UTTyler\DESIGN OF MODERN INFORMATION SYSTEMS - ASPNET\Assignments\Project\SmallERP\SmallERP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matt\Documents\College\UTTyler\DESIGN OF MODERN INFORMATION SYSTEMS - ASPNET\Assignments\Project\SmallERP\SmallERP\obj\Debug\SmallERP.dll
+C:\Users\Matt\Documents\College\UTTyler\DESIGN OF MODERN INFORMATION SYSTEMS - ASPNET\Assignments\Project\SmallERP\SmallERP\obj\Debug\SmallERP.pdb

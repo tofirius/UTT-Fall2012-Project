@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="template.master.cs" Inherits="SmallERP.template" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
+</head>
+<body>
+    <h1>Small ERP</h1>
+    <form id="form1" runat="server">
+    
+    <div class="center">
+        <asp:Button ID="btnHome" runat="server" onclick="btnHome_Click" 
+            PostBackUrl="~/default.aspx" Text="Home" Width="126px" />
+        <asp:Button ID="btnAccounting" runat="server" Text="Accounting" Width="126px" 
+            onclick="btnAccounting_Click" />
+        <asp:Button ID="btnPayroll" runat="server" Text="Payroll" Width="126px" 
+            onclick="btnPayroll_Click" />
+        <asp:Button ID="btnEmployees" runat="server" Text="Employees" Width="126px" 
+            onclick="btnEmployees_Click" />
+        <asp:Button ID="btnOrders" runat="server" Text="Orders" Width="126px" 
+            onclick="btnOrders_Click" />
+        <asp:Button ID="btnInventory" runat="server" Text="Inventory" Width="126px" 
+            onclick="btnInventory_Click" />
+        <asp:Button ID="btnCustomers" runat="server" Text="Customers" Width="126px" 
+            onclick="btnCustomers_Click" />
+        <asp:Button ID="btnReports" runat="server" Text="Reports" Width="126px" />
+    </div>
+    <h2>
+        <asp:Label ID="lblTitle" runat="server"></asp:Label>
+    </h2>
+    <div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+  
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
