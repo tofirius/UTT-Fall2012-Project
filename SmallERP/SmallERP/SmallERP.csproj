@@ -52,6 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Accounting.aspx" />
+    <Content Include="App_Data\SmERP.mdf" />
+    <Content Include="App_Data\SmERP_log.ldf">
+      <DependentUpon>SmERP.mdf</DependentUpon>
+    </Content>
     <Content Include="Customers.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Inventory.aspx" />
@@ -121,9 +125,7 @@
   <ItemGroup>
     <Content Include="template.Master" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
