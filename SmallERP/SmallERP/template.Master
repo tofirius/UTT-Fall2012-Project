@@ -8,8 +8,18 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" type="text/css" href="main.css" />
+        
+	<link href="css/smoothness/jquery-ui-1.9.1.custom.css" rel="stylesheet"/>
+	<script type="text/jscript" src="js/jquery-1.8.2.js"></script>
+	<script type="text/jscript" src="js/jquery-ui-1.9.1.custom.js"></script>
 
-</head>
+    <script type="text/jscript">
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
+
+</head> 
 <body>
     <h1>Small ERP</h1>
     <form id="form1" runat="server">
@@ -35,6 +45,20 @@
         <asp:Label ID="lblTitle" runat="server"></asp:Label>
     </h2>
     <div>
+
+<h2 class="demoHeaders">Tabs</h2>
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">First</a></li>
+		<li><a href="#tabs-2">Second</a></li>
+		<li><a href="#tabs-3">Third</a></li>
+	</ul>
+	<div id="tabs-1">1</div>
+	<div id="tabs-2">2</div>
+	<div id="tabs-3">3</div>
+</div>
+
+
 
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         

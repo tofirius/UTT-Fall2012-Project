@@ -11,7 +11,7 @@ namespace SmallERP
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lblTitle.Text = Session["pageTitle"].ToString();
+            //lblTitle.Text = Session["pageTitle"].ToString();
         }
 
         protected void btnHome_Click(object sender, EventArgs e)
