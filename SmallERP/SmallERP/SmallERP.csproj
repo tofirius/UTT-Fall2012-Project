@@ -98,6 +98,9 @@
     </Compile>
     <Content Include="App_Code\Person.cs" />
     <Content Include="App_Code\Employee.cs" />
+    <Content Include="App_Code\Customer.cs" />
+    <Content Include="App_Code\generalLedgerList.cs" />
+    <Compile Include="App_Code\generalLegderRecord.cs" />
     <Compile Include="App_Code\Product.cs" />
     <Compile Include="Customers.aspx.cs">
       <DependentUpon>Customers.aspx</DependentUpon>
