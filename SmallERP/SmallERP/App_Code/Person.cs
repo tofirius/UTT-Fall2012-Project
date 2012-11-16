@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SmallERP.App_Code
 {
-    abstract class Person
+    public class Person
     {
         protected string name { get; set; }
         protected string address { get; set; }

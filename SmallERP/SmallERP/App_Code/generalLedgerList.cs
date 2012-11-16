@@ -7,25 +7,25 @@ namespace SmallERP.App_Code
 {
     public class generalLedgerList
     {
-        List<generalLedgerRecord> gl = new List<generalLedgerRecord>();
+        List<generalLegderRecord> gl = new List<generalLegderRecord>();
 
 
-        public decimal calcLedgerTotal()
-        {
-            decimal total = 0;
-            foreach (generalLedgerRecord glr in gl)
-            {
-                total -= glr.debit;
-                total += glr.credit;
-            }
+        //public decimal calcLedgerTotal()
+        //{
+        //    decimal total = 0;
+        //    foreach (generalLedgerRecord glr in gl)
+        //    {
+        //        total -= glr.debit;
+        //        total += glr.credit;
+        //    }
 
-            return total;
-        }
+        //    return total;
+        //}
 
-        public decimal calcAccountTotal(string acctID)
-        {
+        //public decimal calcAccountTotal(string acctID)
+        //{
 
-        }
+        //}
 
     }
 
