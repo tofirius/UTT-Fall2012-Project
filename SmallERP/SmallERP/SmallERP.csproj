@@ -96,6 +96,9 @@
     <Compile Include="Accounting.aspx.designer.cs">
       <DependentUpon>Accounting.aspx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\Person.cs" />
+    <Content Include="App_Code\Employee.cs" />
+    <Compile Include="App_Code\Product.cs" />
     <Compile Include="Customers.aspx.cs">
       <DependentUpon>Customers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
