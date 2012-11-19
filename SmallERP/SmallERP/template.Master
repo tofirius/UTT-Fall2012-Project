@@ -7,17 +7,7 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-        
-	<link href="css/smoothness/jquery-ui-1.9.1.custom.css" rel="stylesheet"/>
-	<script type="text/jscript" src="js/jquery-1.8.2.js"></script>
-	<script type="text/jscript" src="js/jquery-ui-1.9.1.custom.js"></script>
-
-    <script type="text/jscript">
-        $(function () {
-            $("#tabs").tabs();
-        });
-    </script>
+    <link href="css/SmERP.css" rel="stylesheet" type="text/css" />
 
 </head> 
 <body>
@@ -28,37 +18,24 @@
         <asp:Button ID="btnHome" runat="server" onclick="btnHome_Click" 
             PostBackUrl="~/default.aspx" Text="Home" Width="126px" />
         <asp:Button ID="btnAccounting" runat="server" Text="Accounting" Width="126px" 
-            onclick="btnAccounting_Click" />
+            onclick="btnAccounting_Click" PostBackUrl="~/Accounting.aspx" />
         <asp:Button ID="btnPayroll" runat="server" Text="Payroll" Width="126px" 
-            onclick="btnPayroll_Click" />
+            onclick="btnPayroll_Click" PostBackUrl="~/Payroll.aspx" />
         <asp:Button ID="btnEmployees" runat="server" Text="Employees" Width="126px" 
-            onclick="btnEmployees_Click" />
+            onclick="btnEmployees_Click" PostBackUrl="~/Employees.aspx" />
         <asp:Button ID="btnOrders" runat="server" Text="Orders" Width="126px" 
-            onclick="btnOrders_Click" />
+            onclick="btnOrders_Click" PostBackUrl="~/Orders.aspx" />
         <asp:Button ID="btnInventory" runat="server" Text="Inventory" Width="126px" 
-            onclick="btnInventory_Click" />
+            onclick="btnInventory_Click" PostBackUrl="~/Inventory.aspx" />
         <asp:Button ID="btnCustomers" runat="server" Text="Customers" Width="126px" 
-            onclick="btnCustomers_Click" />
-        <asp:Button ID="btnReports" runat="server" Text="Reports" Width="126px" />
+            onclick="btnCustomers_Click" PostBackUrl="~/Customers.aspx" />
+        <asp:Button ID="btnReports" runat="server" Text="Reports" Width="126px" 
+            PostBackUrl="~/Reports.aspx" />
     </div>
     <h2>
         <asp:Label ID="lblTitle" runat="server"></asp:Label>
     </h2>
     <div>
-
-<h2 class="demoHeaders">Tabs</h2>
-<div id="tabs">
-	<ul>
-		<li><a href="#tabs-1">First</a></li>
-		<li><a href="#tabs-2">Second</a></li>
-		<li><a href="#tabs-3">Third</a></li>
-	</ul>
-	<div id="tabs-1">1</div>
-	<div id="tabs-2">2</div>
-	<div id="tabs-3">3</div>
-</div>
-
-
 
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         

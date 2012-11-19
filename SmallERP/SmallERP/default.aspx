@@ -3,5 +3,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
-        Home Page - not sure what to put here yet.</p>
+        Welcome to SmERP, the Small Enterprise Resource Planning web solution.
+    </p>
 </asp:Content>

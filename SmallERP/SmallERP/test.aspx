@@ -6,7 +6,7 @@
 
 <head runat="server">
 	<meta charset="utf-8" >
-	<title>jQuery UI Tabs - Default functionality</title>
+	<title>SmERP</title>
 	<link rel="stylesheet" href="css/themes/dark-hive/jquery.ui.all.css">
 	<script src="js/jquery-1.8.2.js"></script>
 	<script src="js/ui/jquery.ui.core.js"></script>
@@ -33,24 +33,53 @@
                 <li><a href="#tabs-5">Reports</a></li>	        
             </ul>
 	        <div id="tabs-1">
-		        <p>Accounting</p>
+                <p>
+                    <asp:GridView ID="gvAccounting" runat="server">
+                        <Columns>
+                            <asp:CommandField ButtonType="Button" ShowEditButton="True" />
+                            <asp:CommandField ButtonType="Button" ShowDeleteButton="True" />
+                        </Columns>
+                    </asp:GridView>
+                </p>
 	        </div>
 	        <div id="tabs-2">
-		        <p>Customers</p>
+                    <asp:GridView ID="gvCustomers" runat="server">
+                        <Columns>
+                            <asp:CommandField ButtonType="Button" ShowEditButton="True" />
+                            <asp:CommandField ButtonType="Button" ShowDeleteButton="True" />
+                        </Columns>
+                    </asp:GridView>
+                </div>
 	        </div>
 	        <div id="tabs-3">
-		        <p>Inventory</p>
+                    <asp:GridView ID="gvInventory" runat="server">
+                        <Columns>
+                            <asp:CommandField ButtonType="Button" ShowEditButton="True" />
+                            <asp:CommandField ButtonType="Button" ShowDeleteButton="True" />
+                        </Columns>
+                    </asp:GridView>
 	        </div>
 	        <div id="tabs-4">
-		        <p>Orders</p>
+                    <asp:GridView ID="gvOrders" runat="server">
+                        <Columns>
+                            <asp:CommandField ButtonType="Button" ShowEditButton="True" />
+                            <asp:CommandField ButtonType="Button" ShowDeleteButton="True" />
+                        </Columns>
+                    </asp:GridView>
 	        </div>
 	        <div id="tabs-5">
-		        <p>Reports</p>
-	        </div>
+                    <asp:GridView ID="gvReports" runat="server">
+                        <Columns>
+                            <asp:CommandField ButtonType="Button" ShowEditButton="True" />
+                            <asp:CommandField ButtonType="Button" ShowDeleteButton="True" />
+                        </Columns>
+                    </asp:GridView>
+ 	        </div>
         </div>
 
         <div class="demo-description">
         <p>Click tabs to swap between content that is broken into logical sections.</p>
         </div>
     </form>
+</body>
 </html>
