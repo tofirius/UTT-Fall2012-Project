@@ -32,9 +32,6 @@
         <asp:Button ID="btnReports" runat="server" Text="Reports" Width="126px" 
             PostBackUrl="~/Reports.aspx" />
     </div>
-    <h2>
-        <asp:Label ID="lblTitle" runat="server"></asp:Label>
-    </h2>
     <div>
 
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

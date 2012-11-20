@@ -16,6 +16,9 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
+    <h2>Customers</h2>
+    
     <asp:GridView ID="GridView1" runat="server" CellPadding="3" 
         GridLines="Vertical" Width="990px" BackColor="White" 
     BorderColor="#999999" BorderStyle="None" BorderWidth="1px">
@@ -77,7 +80,7 @@
                 ZIP:
             </td>
             <td class="style3">
-                <asp:TextBox ID="TextBox4" runat="server" ontextchanged="TextBox4_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>

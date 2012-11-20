@@ -11,6 +11,9 @@
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
+        <h2>Employees</h2>
+
     <asp:GridView ID="GridView1" runat="server" Width="1008px" CellPadding="3" 
         GridLines="Vertical" BackColor="White" BorderColor="#999999" BorderStyle="None" 
         BorderWidth="1px">

@@ -13,5 +13,10 @@ namespace SmallERP
         {
 
         }
+
+        protected void btnAddRecord_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

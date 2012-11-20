@@ -2,6 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p>
-        List of Reports with links to pages</p>
+    <h2>Reports</h2>    
+    <div>List of Reports with links to pages</div>
 </asp:Content>
