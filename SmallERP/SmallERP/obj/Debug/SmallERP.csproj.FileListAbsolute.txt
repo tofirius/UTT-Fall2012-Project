@@ -8,3 +8,8 @@ C:\Users\Matt\Documents\GitHub\UTT-Fall2012-Project\SmallERP\SmallERP\bin\SmallE
 C:\Users\Matt\Documents\GitHub\UTT-Fall2012-Project\SmallERP\SmallERP\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Matt\Documents\GitHub\UTT-Fall2012-Project\SmallERP\SmallERP\obj\Debug\SmallERP.dll
 C:\Users\Matt\Documents\GitHub\UTT-Fall2012-Project\SmallERP\SmallERP\obj\Debug\SmallERP.pdb
+D:\Documents\UTT\2012-2013\Fall\COSC4309\Project\UTT-Fall2012-Project\SmallERP\SmallERP\bin\SmallERP.dll
+D:\Documents\UTT\2012-2013\Fall\COSC4309\Project\UTT-Fall2012-Project\SmallERP\SmallERP\bin\SmallERP.pdb
+D:\Documents\UTT\2012-2013\Fall\COSC4309\Project\UTT-Fall2012-Project\SmallERP\SmallERP\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents\UTT\2012-2013\Fall\COSC4309\Project\UTT-Fall2012-Project\SmallERP\SmallERP\obj\Debug\SmallERP.dll
+D:\Documents\UTT\2012-2013\Fall\COSC4309\Project\UTT-Fall2012-Project\SmallERP\SmallERP\obj\Debug\SmallERP.pdb

@@ -31,6 +31,7 @@
     </asp:GridView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
     <br />
+    <asp:Button ID="Button1" runat="server" Text="Button" />
     <br />
     <strong>ADD NEW JOURNAL ENTRY INTO THE GENERAL LEDGER</strong><br />
     <table class="style1">
