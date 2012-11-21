@@ -13,5 +13,12 @@ namespace SmallERP.App_Code
         protected decimal credit { get; set; }
         protected string detailDescription { get; set; }
         protected DateTime entryDate { get; set; }
+
+        public Boolean saveEntry()
+        {
+
+
+            return true;
+        }
     }
 }
